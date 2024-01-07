@@ -5,6 +5,9 @@
 // 4. paste the code
 // 5. change [username]
 // 6. hit Enter
+// 7. wait ...
+// 8. Type - copy([variable])
+// 9. paste in an editor
 
 const username = "";
 
