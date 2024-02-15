@@ -1,21 +1,21 @@
 #include <Servo.h>
 
-Servo tap_servo;
+Servo motor;
 
 int sensor_pin = 4;
-int tap_servo_pin =5;
+int motor_pin = 5;
 
 void setup() {
     pinMode(sensor_pin,INPUT);
-    tap_servo.attach(tap_servo_pin);
+    motor.attach(motor_pin);
 }
 
 void loop() {
     int val = digitalRead(sensor_pin);
     if (val == 0) {
-        tap_servo.write(0);
+        motor.write(0);
     }
     if (val == 1) {
-        tap_servo.write(180);
+        motor.write(180);
     }
 }
