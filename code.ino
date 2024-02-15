@@ -1,5 +1,4 @@
 #include <Servo.h>
-#include <Servo.h>
 
 Servo tap_servo;
 
